@@ -11,9 +11,9 @@ on:
       - check-dist # TODO: replace it with main
     paths-ignore:
       - '**.md'
-  pull_request:
-    paths-ignore:
-      - '**.md'
+  # pull_request:
+  #   paths-ignore:
+  #     - '**.md'
   workflow_dispatch:
 
 jobs:
