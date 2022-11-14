@@ -8,7 +8,7 @@ name: Check dist/
 on:
   push:
     branches:
-      - main
+      - check-dist # TODO: replace it with main
     paths-ignore:
       - '**.md'
   pull_request:
